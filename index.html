@@ -1,40 +1,60 @@
 <!DOCTYPE html>
-<!-- saved from url=(0022)http://127.0.0.1:5500/ -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-<style type="text/css"></style><style type="text/css" id="operaUserStyle">
-   
-  </style></head>
+    <title>navBar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
     <header class="header">
-        <div class="logo">
-            <img src="./index_files/logo.svg" alt="FlowBite Logo">
-            <h1>Flowbite</h1>
-        </div>
+        
         <nav class="nav-top">
-            <ul>
-                <li class="logo-var"><a href="http://127.0.0.1:5500/#"><img src="./index_files/campana.png" alt="campana"></a></li>
-                <li class="logo-var"><a href="http://127.0.0.1:5500/#"><img src="./index_files/bloque.png" alt="bloque"></a></li>
-                <li class="logo-var"><a href="http://127.0.0.1:5500/#"><img src="./index_files/view.png" alt="view"></a></li>
-                <li><a href="http://127.0.0.1:5500/#">Bonnie Green @ 1234-567-890 </a></li>
+
+            <div class="logo">
+                <img src="https://flowbite.s3.amazonaws.com/logo.svg" alt="FlowBite Logo" />
+                <h1>Flowbite</h1>
+            </div>
+
+            <ul class="uno">
+                <li class="logo-var"><a href="#"><img src="/img/bell.png" alt=""></a></a></li>
+                <li class="logo-var"><a href="#"><img src="/img/more.png" alt="bloque"></a></li>
+                <li id= "icono1" class="logo-var"><a href="#"><img src="/img/view.jpg" alt=""></a></a></li>
+                <li id="palabra"><a href="#">Bonnie Green @ 1234-567-890 </a></li>
             </ul>
+            
+            <a onclick="openNav()" class="menu" href="#"><img id="barra" src="/img/bars.jpg" alt="Barra"></a>
+            <div class="overlay" id="mobile-menu">
+            <a onclick="closeNav()" href="#" class="close">&times;</a>
+            <div class="overlay-content"></div>
+            <a href="#">Bonnie Green @ 1234-567-890 </a></li>
+            <a href="#">Home</a>
+            <a href="#">Company</a>
+            <a href="#">Team</a>
+            <a href="#">Feacures</a>
+            <a href="#">MarketPlace</a>
+            <a href="#">Resources</a>
+            <a href="#">Forum</a>
+            <a href="#">Support</a>
+        </div>
+
         </nav>
         <nav class="nav-down">
-            <ul>
-                <li><a href="http://127.0.0.1:5500/#">Home</a></li>
-                <li><a href="http://127.0.0.1:5500/#">Company</a></li>
-                <li><a href="http://127.0.0.1:5500/#">Team</a></li>
-                <li><a href="http://127.0.0.1:5500/#">Feacures</a></li>
-                <li><a href="http://127.0.0.1:5500/#">MarketPlace</a></li>
-                <li><a href="http://127.0.0.1:5500/#">Resources</a></li>
-                <li><a href="http://127.0.0.1:5500/#">Forum</a></li>
-                <li><a href="http://127.0.0.1:5500/#">Support</a></li>
+
+            <ul class="one">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Company</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Feacures</a></li>
+                <li><a href="#">MarketPlace</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#">Forum</a></li>
+                <li><a href="#">Support</a></li>
                
             </ul>
         </nav>
+        
     </header>
-    
+    <script type="text/javascript" src="nav.js"></script>
 </body>
 </html>
